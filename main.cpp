@@ -173,7 +173,6 @@ int get_my_info(char *interface)
     if (my_ip.isNull() || my_mac.isNull())
         return -1; 
 
-
     return 0;
 }
 

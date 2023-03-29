@@ -1,9 +1,6 @@
-CFLAGS = -g
-CXXFLAGS = -g
 LDLIBS=-lpcap
 
 all: send-arp
-
 
 main.o: mac.h ip.h ethhdr.h arphdr.h main.cpp
 
